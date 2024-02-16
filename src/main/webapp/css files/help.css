@@ -1,0 +1,166 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.758);
+}
+.leftPanel{
+    background-color:#08050584;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:18vw;
+    height: 94.8vh;
+    position: relative;
+    top:1.2em;
+    left:15px;
+    bottom: 3em;
+    border-radius: 12px;
+     box-shadow: 4px 2px 5px black;
+}
+.leftPanel .logo h1{
+    color:greenyellow;
+    font-size: 2.5em;
+}
+.elements{
+    list-style: none;
+}
+.elements li{
+    margin-top: 3em;
+    text-align: center;
+    width:100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+}
+.elements li a{
+    text-decoration: none; 
+    padding: 5px;
+    color: black;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-transition-duration: 0.2s;
+}
+li:hover{
+	box-shadow:0px 1px 1px 1px white;
+}
+
+.alignment{
+    margin-right: 6px;
+    color:black;
+}
+.alignment2{
+    margin: 10px 6px;
+    padding:10px 15px;
+    background-color:#08050584;
+    color: white;
+    box-shadow: 4px 2px 5px black;
+    width:20em;
+    font-weight: bolder;
+    height:3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 6px;
+}
+.maincontent{
+    width: 80vw;
+    height: 99vh; 
+    position: fixed;
+    top:0.7em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    right: 5px;
+    border-radius: 18px;
+}
+.topPanel{
+    background-color:#08050584;
+    color:white;
+     box-shadow: 4px 2px 5px black;
+    display: flex;
+    font-weight: bolder;
+    margin: 10px 10px;
+    border-radius: 15px;
+    height: 5.5em;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.topPanel h2{
+    margin-left: 2.8em;
+    line-height: 50px;
+}
+.topPanel h3{
+    margin-right: 2.8em;
+    line-height: 50px;
+    width:11em;
+}
+
+.divison{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1.59em;
+    margin-right: 1.5em;
+    justify-content: space-between;
+}
+.heading{
+    background-color: #08050584;
+    color:white;
+    font-weight: bolder;
+    height:3.5em;
+     box-shadow: 4px 2px 5px black;
+    text-align:left;
+    line-height: 3.5em;
+    border-radius: 8px;
+}
+.heading h3{
+    margin-left: 1.5em;
+}
+.bottomPanel{
+    height: 65%;
+    width:95%;
+    position: relative;
+    left: 2em;
+    margin-top: 2em;
+
+}
+.getInTouch{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: #08050584;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12em;
+    margin-right: 12em;
+    margin-top: 1em;
+    color:white;
+    height: 25.5em;
+    border-radius: 10px;
+    box-shadow: 4px 2px 5px black;
+}
+.getInTouch input,
+.getInTouch textarea:not(.btn) {
+  width: 34em;
+  margin: 9px 0;
+  height: 1.3em;
+  font-weight: 650;
+}
+
+.getInTouch .btn {
+  width: 50%;
+  height: 2em;
+  margin-left: 8em;
+  background-color: rgb(99, 132, 231);
+  color: ghostwhite;
+  border-radius: 10px;
+}
+
+.getInTouch .btn:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 5px black;
+}
+.getInTouch textarea{
+	resize: none;
+}
+

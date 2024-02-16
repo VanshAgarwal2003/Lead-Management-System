@@ -1,0 +1,255 @@
+@charset "UTF-8";
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.758);
+}
+.leftPanel{
+  background-color:#08050584;
+   box-shadow: 4px 2px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:18vw;
+    height: 94.8vh;
+    position: relative;
+    top:1.2em;
+    left:15px;
+    bottom: 3em;
+    border-radius: 12px;
+}
+.leftPanel .logo h1{
+    color:greenyellow;
+    font-size: 2.5em;
+}
+.elements{
+    list-style: none;
+}
+.elements li{
+    margin-top: 3em;
+    text-align: center;
+    width:100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+}
+.elements li a{
+    text-decoration: none; 
+    padding: 5px;
+    color: black;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-transition-duration: 0.2s;
+}
+li:hover{
+	box-shadow:0px 1px 1px 1px white;
+}
+
+.alignment{
+    margin-right: 6px;
+    color:black;
+}
+.maincontent{
+    width: 80vw;
+    height: 99vh; 
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top:0.7em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    right: 5px;
+    border-radius: 18px;
+}
+.topPanel{
+    background-color:#08050584;
+    color:white;
+    display: flex;
+    font-weight: bolder;
+     box-shadow: 4px 2px 5px black;
+    margin: 10px 10px;
+    border-radius: 15px;
+    height: 5.5em;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.topPanel h2{
+    margin-left: 2.8em;
+    line-height: 50px;
+}
+.topPanel h3{
+    margin-right: 1.5em;
+    line-height: 29px;
+    width:11.5em;
+    margin-top:1.5em;
+}
+
+.divison{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 1.5em;
+    justify-content: space-between;
+    width:76.2vw;
+}
+
+
+.alignment2{
+    margin: 10px 5px;
+    padding:10px 16px;
+    background-color: #08050584;
+    color: white;
+    width:17em;
+    font-weight: bolder;
+    height:3em;
+    display: flex;
+    flex-direction: row;
+     box-shadow: 4px 2px 5px black;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 6px;
+}
+.profile{
+    position: fixed;
+    background-color: #08050584;
+    color: white;
+    top:18.5em;
+     box-shadow: 4px 2px 5px black;
+    left:21em;
+    height:57.5vh;
+    width:76vw;
+    border-radius: 6px;
+}
+.profile h1{
+   position: relative;
+   left:1em;
+   font-size: 1.8em;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profileSection{
+    font-size: 0.5em;
+    position: relative;
+    top:2em;
+}
+.profileSection h1{
+    padding: 25px 50px;
+}
+.profileSection h1 span{
+	background-color: white;
+    color: black;
+    display: block;
+    width: 36%;
+    position: relative;
+    left: 6em;
+    border-radius: 8px;
+    margin-top: -1.25em;
+    text-align: center;
+    height: 27px;
+    
+}
+.btnprofile-a{
+	color: white;
+	text-decoration: none;
+}
+.btnprofile{
+   position: relative;
+   left:5em;
+   top:4em;
+   height:2.3em;
+   background-color: #237fb7;
+   color:white;
+   border-color: black;
+   border-radius: 6px;
+   font-weight: bolder;
+   width:20%;
+
+}
+.btnprofile:hover{
+    cursor: pointer;
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.466);
+    border-color: black;
+}
+#displayProfile{
+	margin-left: 3em;
+}
+
+
+/* Profile update */
+.profileInput{
+    background-color: #08050584;
+    position: fixed;
+    color:white;
+    top:15.5em;
+     box-shadow: 4px 2px 5px black;
+    left:21em;
+    height:64vh;
+    width:76vw;
+    border-radius: 6px;
+}
+.profileInput h1{
+    position: relative;
+    left:1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .heading{
+    background-color: #08050584;
+     box-shadow: 4px 2px 5px black;
+    color:white;
+    font-weight:bolder;
+    height:3.5em;
+    margin-left: 2.06em;
+    text-align:left;
+    line-height: 3.5em;
+    border-radius: 6px;
+    width:95%;
+}
+.heading h3{
+    margin-left: 1.5em;
+    font-size: 1.3em;
+}
+ .profileSection-Input{
+    font-size: 1.2em;
+    position: relative;
+    top:2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profileSection-Input input,label{
+	padding: 6px 15px;
+}
+.profileSection-Input input{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+    display: block;
+    margin: auto;
+    position: relative;
+    left:-12em;
+    width:20%;
+    height:5%;
+}
+
+ .profileSection-Input label{
+    position: relative;
+    top:1em;
+    left:3em;
+ }
+ .btnprofileInput{
+    position: relative;
+    left:5em;
+    top:3em;
+    height:2.3em;
+    background-color: #237fb7;
+    color:white;
+    border-color: black;
+    border-radius: 6px;
+    font-weight: bolder;
+    width:20%;
+ 
+ }
+ .btnprofileInput:hover{
+     cursor: pointer;
+     box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.466);
+     border-color: black;
+ } 
+
+
